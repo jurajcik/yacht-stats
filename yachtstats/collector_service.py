@@ -50,6 +50,7 @@ class CollectorService:
             session.add(price_point)
 
         session.commit()
+        session.close()
 
         log.info(f'Persisted {len(results)} price points')
 

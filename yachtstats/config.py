@@ -24,3 +24,5 @@ SEARCH_LIST = [
     Search(check_in='2022-08-20', check_out='2022-08-27'),
     Search(check_in='2022-08-27', check_out='2022-09-03')
 ]
+
+MINIMAL_TIME_PERIOD_OF_RUNS = 20

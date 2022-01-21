@@ -8,6 +8,7 @@ sqlalchemy = "*"
 requests = "*"
 psycopg2 = "*"
 dataclasses = "*"
+pytz = "*"
 
 [dev-packages]
 
